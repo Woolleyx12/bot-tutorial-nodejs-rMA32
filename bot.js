@@ -18,7 +18,7 @@ function respond() {
   } 
   else if(request.text && botRegexDL.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://http://daddyleagues.com/mlyp/team/"+request.text.substring(5,8)+"/depthchart");
+    postMessage("http://daddyleagues.com/mylp/team/"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
   else if(request.text && botRegexSalt.test(request.text)) {
