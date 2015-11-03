@@ -18,7 +18,7 @@ function respond() {
   } 
   else if(request.text && botRegexDL.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://daddyleagues.com/mlyp/team/"+request.text.substring(5,8)+"/depthchart");
+    postMessage("http://http://daddyleagues.com/mlyp/team"+request.text.substring(5,8)+"/depthchart");
     this.res.end();
   } 
   else if(request.text && botRegexSalt.test(request.text)) {
@@ -61,7 +61,7 @@ function respond() {
   } 
   else if(request.text && botRegexSb.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://www.reddit.com/r/maddenall32");
+    postMessage("http://www.reddit.com/r/mlyp");
     this.res.end();
   } 
   else if(request.text && botRegexSh.test(request.text)) {
