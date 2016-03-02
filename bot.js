@@ -106,6 +106,7 @@ function respond() {
     this.res.writeHead(200);
     postMessage("https://cdn0.vox-cdn.com/thumbor/2Y3yR9E8X0hfPCu3FW7WTXq-UN8=/cdn0.vox-cdn.com/uploads/chorus_asset/file/3976134/8746368.0.jpg");
     this.res.end();
+  }
   
   else {
     console.log("don't care");
